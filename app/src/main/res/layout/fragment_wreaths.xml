@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wreaths">
+
+    <ScrollView
+        android:id="@+id/wreaths_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/n_venok_kr_obod"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Венок «Красный обод»"
+                    android:gravity="center"
+                    android:textSize="30sp"/>
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/venok_kras_obod" />
+                <TextView
+                    android:id="@+id/text_specifications1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+                <TextView
+                    android:id="@+id/h_venok_kr_obod"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/venok_jbjd"
+                    android:gravity="center_horizontal"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/m_grob_komb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="750р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/n_venok_s4ast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Венок «Счастье»"
+                    android:gravity="center"
+                    android:textSize="30sp"/>
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/venok_s4ast" />
+                <TextView
+                    android:id="@+id/text_specifications2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+                <TextView
+                    android:id="@+id/h_venok_s4ast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/venok_s4ast"
+                    android:gravity="center_horizontal"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/m_venok_s4ast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="800р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/n_venok_pamyat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Венок «Вечная память»"
+                    android:gravity="center"
+                    android:textSize="30sp"/>
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/venok_pamyat" />
+                <TextView
+                    android:id="@+id/text_specifications3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+                <TextView
+                    android:id="@+id/h_venok_pamyat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/venok_pamyat"
+                    android:gravity="center_horizontal"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/m_venok_pamyat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="450р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/n_venok_kalla"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Венок «Из цветов калла»"
+                    android:gravity="center"
+                    android:textSize="30sp"/>
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/venok_kalla" />
+                <TextView
+                    android:id="@+id/text_specifications4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+                <TextView
+                    android:id="@+id/h_venok_kalla"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/venok_kalla"
+                    android:gravity="center_horizontal"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/m_venok_kalla"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="500р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/n_venok_roz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Венок «Из роз»"
+                    android:gravity="center"
+                    android:textSize="30sp"/>
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/venok_roz" />
+                <TextView
+                    android:id="@+id/text_specifications5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+                <TextView
+                    android:id="@+id/h_venok_roz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/venok_kalla"
+                    android:gravity="center_horizontal"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/m_venok_roz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="500р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

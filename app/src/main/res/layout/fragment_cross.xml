@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cross">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/n_krest_pamyat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Крест «Вечная память»"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/f_krest_pamyat"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/krest_ve4naya_pamyat" />
+
+                <TextView
+                    android:id="@+id/text_specifications1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/text_krest_pamyat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/krest_pamyat"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/m_krest_pamyat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="500р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/n_krest_standart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Крест «Стандрат»"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/f_krest_standart"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/kresr_standart" />
+
+                <TextView
+                    android:id="@+id/text_specifications2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/text_krest_standart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/krest_standart"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/m_krest_standart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="500р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/n_krest_zavitushka"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Крест «Завитушка»"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/f_krest_zavitushka"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/krest_savitushka" />
+
+                <TextView
+                    android:id="@+id/text_specifications3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/text_krest_zavitushka"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/krest_savitushka"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/m_krest_zavitushka"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="900р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/n_krest_iisus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Крест «Иисус»"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/f_krest_iisus"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/krest_iisus" />
+
+                <TextView
+                    android:id="@+id/text_iisus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/text_krest_iisus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/krest_iisus"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/m_krest_iisus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="500р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/n_krest_zolotoy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Крест «Золотой»"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/f_krest_zolotoy"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/krest_zolotoy" />
+
+                <TextView
+                    android:id="@+id/text_zolotoy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/text_krest_zolotoy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/krest_zolotoy"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/m_krest_zolotoy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="500р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".urns">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/n_urns_wishnya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Урна для праха «Вишня»"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/f_urns_wishnya"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/urna_wishnya" />
+
+                <TextView
+                    android:id="@+id/text_specifications1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/text_urns_wishnya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/urns_wishnya"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/m_urns_wishnya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="500р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/n_urns_malahit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Урна для праха «Малахит»"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/f_urns_malahit"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/urna_makahit" />
+
+                <TextView
+                    android:id="@+id/text_specifications2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/text_urns_malahit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/urns_malahit"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/m_urns_malahit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="500р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/n_urns_mramor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Урна для праха «Мрамор»"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/f_urns_mramor"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/urna_mramor" />
+
+                <TextView
+                    android:id="@+id/text_specifications3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/text_urns_mramor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/urns_mramor"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/m_urns_mramor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="500р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/n_urns_"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Урна для праха «Гранит»"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/f_urns_granit"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/urna_granit" />
+
+                <TextView
+                    android:id="@+id/text_specifications4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/text_urns_granit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/urns_granit"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/m_urns_granit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="500р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/n_urns_koza"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Урна для праха «Кожа»"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/f_urns_koza"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/urna_koza" />
+
+                <TextView
+                    android:id="@+id/text_specifications5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/text_urns_koza"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/urns_koza"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/m_urns_koza"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="500р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

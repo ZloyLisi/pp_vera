@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".coffin">
+
+    <ScrollView
+        android:id="@+id/grob_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/n_grob_Bant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Гроб «Бант»"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/f_grob_bant"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/grob_bant" />
+
+                <TextView
+                    android:id="@+id/text_specifications1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/text_grob_bant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/grob_baton"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/m_grob_Bant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="8000р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/n_grob_babo4ka"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Гроб «Бабочка»"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/f_grob_babo4ka"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/grob_babo4ka" />
+
+                <TextView
+                    android:id="@+id/text_specifications2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/text_grob_babo4ka"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/grob_babo4ka"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/m_grob_babo4ka"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="8000р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/n_grob_komb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Гроб «Комбинированный»"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/f_grob_komb"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/grob_kombinirovann" />
+
+                <TextView
+                    android:id="@+id/text_specifications3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/text_grob_komb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/grob_komb"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/m_grob_komb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="10000р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/n_grob_vegas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Гроб «Вегас»"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/f_grob_vegas"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/grob_vegas" />
+
+                <TextView
+                    android:id="@+id/text_specifications4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/text_grob_vegas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/grob_vegas"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/m_grob_vegas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="10000р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/n_grob_napaleon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Гроб «Наполено»"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/f_grob_napaleon"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/grob_napoleon" />
+
+                <TextView
+                    android:id="@+id/text_specifications5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/text_grob_napaleon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/grob_napaleon"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/m_grob_napaleon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="10000р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/n_grob_volan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Гроб «Волан»"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/f_grob_volan"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/grob_volan" />
+
+                <TextView
+                    android:id="@+id/text_specifications6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/specifications"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/text_grob_volan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/grob_volan"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/m_grob_volan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="10000р"
+                    android:textIsSelectable="false"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
